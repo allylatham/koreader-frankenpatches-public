@@ -13,30 +13,30 @@ local B_SETT = {	--BANNER SETTINGS
 					title_text = "%T", 	--configure title_text like you'd configure the inbuilt 
 										--sleep screen message. for eg, "%T" shows book title,
 										--"page %c of %t" shows 'page 1 of 400' etc.
-					title_fontFace = "cfont",
+					title_fontFace = "Baskervville-Regular.ttf",
 					title_fontSize = 30,
-					stats_fontFace = "cfont",
+					stats_fontFace = "Baskervville-Regular.ttf",
 					stats_fontSize = 17,
 					border_size = 1,
-					border_color = 0,	-- 0 = white, 1 = black						
+					border_color = 1,	-- 0 = white, 1 = black						
 					background = 0,		-- 0 = white, 1 = black
 					margin = 10,
 					padding = 15,	
 					max_height = 50,		-- percentage of screen height
-					max_width_hl_off = 40,	-- width when highlight off, min: 20
+					max_width_hl_off = 60,	-- width when highlight off, min: 20
 					max_width_hl_on = 60,  	-- width when highlight on, min: 20
 }
 local HL_SETT = {	--HIGHLIGHT SETTINGS
 					showRandomHighlight = true, 
-					highlight_fontFace = "NotoSerif-Italic.ttf",
+					highlight_fontFace = "Baskervville-Italic.ttf",
 					highlight_fontSize = 16,
 					justify = true,
 					add_quotations = true,
 					show_accent_line = true,					
 					showHighlightFooter = true,
-					hl_footer_fontFace = "NotoSerif-Regular.ttf",
+					hl_footer_fontFace = "Baskervville-Regular.ttf",
 					hl_footer_fontSize = 15,
-					hl_footer_text = "saved on %DT at %HM", 	
+					hl_footer_text = "— %A, Page %PG", 	
 										-- %DT = date, 
 										-- %HM = time,
 										-- %PG = page, 
