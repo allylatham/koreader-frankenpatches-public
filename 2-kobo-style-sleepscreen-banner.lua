@@ -23,7 +23,7 @@ local B_SETT = {	--BANNER SETTINGS
 					margin = 10,
 					padding = 15,	
 					max_height = 50,		-- percentage of screen height
-					max_width_hl_off = 60,	-- width when highlight off, min: 20
+					max_width_hl_off = 80,	-- width when highlight off, min: 20
 					max_width_hl_on = 60,  	-- width when highlight on, min: 20
 }
 local HL_SETT = {	--HIGHLIGHT SETTINGS
