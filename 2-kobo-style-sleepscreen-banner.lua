@@ -13,9 +13,9 @@ local B_SETT = {	--BANNER SETTINGS
 					title_text = "%T", 	--configure title_text like you'd configure the inbuilt 
 										--sleep screen message. for eg, "%T" shows book title,
 										--"page %c of %t" shows 'page 1 of 400' etc.
-					title_fontFace = "Baskervville.ttf",
+					title_fontFace = "Bookerly-Regular.ttf",
 					title_fontSize = 30,
-					stats_fontFace = "Baskervville.ttf",
+					stats_fontFace = "Bookerly-Regular.ttf",
 					stats_fontSize = 17,
 					border_size = 1,
 					border_color = 1,	-- 0 = white, 1 = black						
@@ -28,13 +28,13 @@ local B_SETT = {	--BANNER SETTINGS
 }
 local HL_SETT = {	--HIGHLIGHT SETTINGS
 					showRandomHighlight = true, 
-					highlight_fontFace = "Baskervville-Italic.ttf",
+					highlight_fontFace = "Bookerly-RegularItalic.ttf",
 					highlight_fontSize = 16,
 					justify = true,
 					add_quotations = true,
 					show_accent_line = true,					
 					showHighlightFooter = true,
-					hl_footer_fontFace = "Baskervville.ttf",
+					hl_footer_fontFace = "Bookerly-Regular.ttf",
 					hl_footer_fontSize = 15,
 					hl_footer_text = "%A, Page %PG", 	
 										-- %DT = date, 
